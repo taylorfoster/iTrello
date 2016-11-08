@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81D0C141DC8272D00F35BE5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D0C131DC8272D00F35BE5 /* Board.swift */; };
+		C840B9E21DCAB9AB005AF041 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840B9E11DCAB9AB005AF041 /* List.swift */; };
+		C840B9E41DCAB9DB005AF041 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840B9E31DCAB9DB005AF041 /* Card.swift */; };
+		C84EFC8F1DCE3E220003E67D /* ViewControllerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EFC8E1DCE3E220003E67D /* ViewControllerList.swift */; };
+		C84EFC911DCE4C390003E67D /* ViewControllerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EFC901DCE4C390003E67D /* ViewControllerCard.swift */; };
 		C8C06AF21DC6A6440011D0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C06AF11DC6A6440011D0AF /* AppDelegate.swift */; };
 		C8C06AF41DC6A6440011D0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C06AF31DC6A6440011D0AF /* ViewController.swift */; };
 		C8C06AF71DC6A6440011D0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C06AF51DC6A6440011D0AF /* Main.storyboard */; };
 		C8C06AF91DC6A6440011D0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C06AF81DC6A6440011D0AF /* Assets.xcassets */; };
 		C8C06AFC1DC6A6440011D0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C06AFA1DC6A6440011D0AF /* LaunchScreen.storyboard */; };
+		C8C06B041DC6A9EA0011D0AF /* TrelloAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C06B031DC6A9EA0011D0AF /* TrelloAPI.swift */; };
+		C8EBC2BE1DCFAF8000E8FC7C /* CardEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EBC2BD1DCFAF8000E8FC7C /* CardEditController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C81D0C131DC8272D00F35BE5 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		C840B9E11DCAB9AB005AF041 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		C840B9E31DCAB9DB005AF041 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C84EFC8E1DCE3E220003E67D /* ViewControllerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerList.swift; sourceTree = "<group>"; };
+		C84EFC901DCE4C390003E67D /* ViewControllerCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCard.swift; sourceTree = "<group>"; };
 		C8C06AEE1DC6A6440011D0AF /* iTrello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTrello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C06AF11DC6A6440011D0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C06AF31DC6A6440011D0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		C8C06AF81DC6A6440011D0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C06AFB1DC6A6440011D0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C06AFD1DC6A6440011D0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C06B031DC6A9EA0011D0AF /* TrelloAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrelloAPI.swift; sourceTree = "<group>"; };
+		C8EBC2BD1DCFAF8000E8FC7C /* CardEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,14 @@
 			children = (
 				C8C06AF11DC6A6440011D0AF /* AppDelegate.swift */,
 				C8C06AF31DC6A6440011D0AF /* ViewController.swift */,
+				C8C06B031DC6A9EA0011D0AF /* TrelloAPI.swift */,
+				C81D0C131DC8272D00F35BE5 /* Board.swift */,
+				C840B9E11DCAB9AB005AF041 /* List.swift */,
+				C840B9E31DCAB9DB005AF041 /* Card.swift */,
+				C84EFC8E1DCE3E220003E67D /* ViewControllerList.swift */,
 				C8C06AF51DC6A6440011D0AF /* Main.storyboard */,
+				C8EBC2BD1DCFAF8000E8FC7C /* CardEditController.swift */,
+				C84EFC901DCE4C390003E67D /* ViewControllerCard.swift */,
 				C8C06AF81DC6A6440011D0AF /* Assets.xcassets */,
 				C8C06AFA1DC6A6440011D0AF /* LaunchScreen.storyboard */,
 				C8C06AFD1DC6A6440011D0AF /* Info.plist */,
@@ -136,6 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C06AF41DC6A6440011D0AF /* ViewController.swift in Sources */,
+				C840B9E41DCAB9DB005AF041 /* Card.swift in Sources */,
+				C81D0C141DC8272D00F35BE5 /* Board.swift in Sources */,
+				C8EBC2BE1DCFAF8000E8FC7C /* CardEditController.swift in Sources */,
+				C8C06B041DC6A9EA0011D0AF /* TrelloAPI.swift in Sources */,
+				C84EFC911DCE4C390003E67D /* ViewControllerCard.swift in Sources */,
+				C840B9E21DCAB9AB005AF041 /* List.swift in Sources */,
+				C84EFC8F1DCE3E220003E67D /* ViewControllerList.swift in Sources */,
 				C8C06AF21DC6A6440011D0AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +316,7 @@
 				C8C06B021DC6A6440011D0AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
