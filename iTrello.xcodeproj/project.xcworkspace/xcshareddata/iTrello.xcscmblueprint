@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6D9CCDA595B9F5AE9D53FC23BBDA318339517870",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6D9CCDA595B9F5AE9D53FC23BBDA318339517870" : 0,
+    "9DF1457ECB09ECA8D7FE17E9D21160353DB41EE5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A3ED46C-2E48-4AA5-BD4D-36CA2F942543",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6D9CCDA595B9F5AE9D53FC23BBDA318339517870" : "iTrello\/",
+    "9DF1457ECB09ECA8D7FE17E9D21160353DB41EE5" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iTrello",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTrello.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:taylorfoster\/iTrello.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D9CCDA595B9F5AE9D53FC23BBDA318339517870"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:taylorfoster\/App-Dev-Assignment-1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9DF1457ECB09ECA8D7FE17E9D21160353DB41EE5"
+    }
+  ]
+}
