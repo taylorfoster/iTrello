@@ -56,7 +56,7 @@ class CardEditController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return board.arrayofLists.count
     }
     
-    // The data to return for the row and component (column) that's being passed in
+
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         let list = board.arrayofLists[row]
         return list.title
